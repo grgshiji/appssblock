@@ -1,0 +1,13 @@
+{
+  "name": "appssblock",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/grgshiji/appssblock",
+    "ssh": "git@github.com:grgshiji/appssblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
